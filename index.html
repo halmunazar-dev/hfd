@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hafid Almunazar — Portofolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Meta -->
+  <meta name="description" content="Portofolio Hafid Almunazar — Mahasiswa UNIKMA. Frontend, UI/UX, Projects." />
+</head>
+<body>
+  <!-- Sticky Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Hafid Almunazar">Hafid Almunazar</a>
+
+      <nav class="nav" id="mainNav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#projects" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero / Home -->
+  <main>
+    <section id="home" class="hero section--full reveal">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="name">Hafid Almunazar</h1>
+          <p class="role">Mahasiswa <span class="accent">UNIKMA</span></p>
+          <p class="intro">
+            <span id="typed"></span><span class="cursor">|</span>
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">Lihat Proyek</a>
+            <a class="btn ghost" href="#contact">Hubungi</a>
+          </div>
+        </div>
+
+        <div class="hero-avatar">
+          <div class="avatar">
+            <!-- Ganti src dengan foto Anda (1:1 atau 4:3); CSS akan crop otomatis -->
+            <img src="a1a.jpg" alt="Foto Hafid Almunazar">
+          </div>
+          <p class="avatar-caption">Hafid Almunazar — Mahasiswa UNIKMA</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <div class="container section-inner about-grid">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>Saya adalah mahasiswa Universitas Komputama (UNIKMA) yang berfokus pada pengembangan web dan desain UI/UX. Saya suka membangun antarmuka yang bersih, simpel, dan dapat diakses dengan transisi halus serta pengalaman pengguna yang intuitif.</p>
+
+          <ul class="skills">
+            <li>HTML &amp; CSS modern</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React / Frontend Development</li>
+            <li>UI/UX Design — prototyping &amp; testing</li>
+          </ul>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Proyek</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Penghargaan</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Semangat Belajar</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects / Portfolio -->
+    <section id="projects" class="section section--dark reveal">
+      <div class="container section-inner">
+        <h2>Portfolio</h2>
+        <p class="muted">Beberapa proyek yang saya kerjakan — klik untuk melihat detail.</p>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Project card 1 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="p1.jpg" alt="Project 1">
+            </div>
+            <div class="project-body">
+              <h3>Project A — Web App</h3>
+              <p class="muted">Aplikasi web responsif dengan fokus UX dan performa.</p>
+              <div class="project-links">
+                <a class="chip" href="#" aria-label="View project">Lihat</a>
+                <a class="chip" href="#" aria-label="Source code">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 2 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="p2.jpg" alt="Project 2">
+            </div>
+            <div class="project-body">
+              <h3>Project B — UI/UX</h3>
+              <p class="muted">Redesign antarmuka untuk aplikasi mobile.</p>
+              <div class="project-links">
+                <a class="chip" href="#">Lihat</a>
+                <a class="chip" href="#">Prototype</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 3 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="a1das.jpg" alt="Project 3">
+            </div>
+            <div class="project-body">
+              <h3>Project C — Dashboard</h3>
+              <p class="muted">Dashboard interaktif dengan data visualisasi.</p>
+              <div class="project-links">
+                <a class="chip" href="#">Lihat</a>
+                <a class="chip" href="#">Detail</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 4 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="a1por.jpg" alt="Project 4">
+            </div>
+            <div class="project-body">
+              <h3>Project D — Portfolio</h3>
+              <p class="muted">Portofolio personal dan blog sederhana.</p>
+              <div class="project-links">
+                <a class="chip" href="#">Lihat</a>
+                <a class="chip" href="#">Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="container section-inner contact-grid">
+        <div class="contact-card">
+          <h2>Contact</h2>
+          <p class="muted">Tertarik bekerja sama? Kirim pesan singkat.</p>
+
+          <form id="contactForm" class="contact-form" action="mailto:email@example.com" method="post" enctype="text/plain">
+            <label>
+              <span>Nama</span>
+              <input type="text" name="name" placeholder="Nama Anda" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="email@domain.com" required>
+            </label>
+            <label>
+              <span>Pesan</span>
+              <textarea name="message" placeholder="Halo Hafid..." rows="5" required></textarea>
+            </label>
+
+            <div class="form-row">
+              <button type="submit" class="btn primary">Kirim</button>
+              <a class="btn ghost" href="mailto:email@example.com">Atau email langsung</a>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h3>Info</h3>
+          <p><strong>Universitas:</strong> UNIKMA</p>
+          <p><strong>Lokasi:</strong> Cimanggu, Cilacap, Jawa Tengah, Indonesia</p>
+          <p><strong>Role:</strong> Mahasiswa / Frontend Developer</p>
+
+          <div class="socials">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Hafid Almunazar — Mahasiswa UNIKMA</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
